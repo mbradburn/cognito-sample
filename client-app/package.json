@@ -1,0 +1,20 @@
+{
+  "name": "client-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "buffer": "^5.2.1",
+    "crypto-js": "^3.1.9-1",
+    "js-cookie": "^2.2.0",
+    "node-fetch-polyfill": "^2.0.6",
+    "superagent": "^4.1.0",
+    "yargs": "^12.0.5"
+  }
+}
