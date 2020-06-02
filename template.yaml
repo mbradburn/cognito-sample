@@ -32,7 +32,7 @@ Resources:
         - ResourceName: CognitoTriggered
       CodeUri: src/CognitoTriggered
       Handler: index.handler
-      Runtime: nodejs8.10
+      Runtime: nodejs12.x
       MemorySize: 3008
       Timeout: 30
       Tracing: Active
@@ -80,7 +80,7 @@ Resources:
         - ResourceName: Signup
       CodeUri: src/Signup
       Handler: index.handler
-      Runtime: nodejs8.10
+      Runtime: nodejs12.x
       MemorySize: 3008
       Timeout: 30
       Tracing: Active
@@ -123,7 +123,7 @@ Resources:
         - ResourceName: AuthenticatedApi
       CodeUri: src/AuthenticatedApi
       Handler: index.handler
-      Runtime: nodejs8.10
+      Runtime: nodejs12.x
       MemorySize: 3008
       Timeout: 30
       Tracing: Active
